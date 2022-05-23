@@ -4,13 +4,7 @@ files:
   - source: /
     destination: /home/ubuntu
 hooks:
-  ApplicationStop:
-    - location: applicationstop.sh
-      timeout: 100
-  AfterInstall:
-    - location: afterinstall.sh
-      timeout: 100
-    ApplicationStart:
+      ApplicationStart:
     - location: applicationstart.sh
       timeout: 100
   
