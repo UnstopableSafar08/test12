@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd /home/ec2-user
-sudo yum -y install httpd
+cd /home/ubuntu
+sudo apt -y install apache2
