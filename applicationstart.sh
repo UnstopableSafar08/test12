@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd /home/ubuntu
-pm2 -f start server.js
+cd /home/ec2-user 
+sudo systemctl start httpd 
